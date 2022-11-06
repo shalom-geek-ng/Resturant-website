@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    list-style: none;
+}
+:root{
+    --para:'Asap Condensed', sans-serif
+    
+}
+/* nav start */
+nav{
+    background-color: black;
+    height: 100px;
+    width: auto;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 0px 100px;
+    align-items: center;
+}
+
+.order-now{
+    color: white;
+}
+.more{
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    color: white;
+    margin-top: 40px;
+    padding: 10px 25px;
+}
+.color{
+    color: white;
+}
+/* toggle start */
+#toggle{
+    display: none;
+}
+.df{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    }
+    /* nav li a */
+    nav li a{
+        margin: 0px 50px;
+        color: white;
+        font-family: var(--para);
+    }
+    nav li a:hover{
+        color: gold;
+    }
+    .heading1{
+        margin-left: 40px;
+        color: gold;
+        
+    }
+    .fa{
+        color: white;
+        font-family: var(--para);
+        margin: 5px;
+    }
+    .fa-cutlery{
+        color: gold;
+    }
+    .btn{
+        width: fit-content;
+        height: fit-content;
+        border-radius: 10px 10px;
+        padding: 10px;
+        background-color: gold;
+    }
+    .picture-box{
+        width: 90%;
+        height: 300px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .food-box1{
+        width: 33%;
+        height: 300px;
+        background-image: url(../image/eat1.jfif) !important;
+        background-size: cover;
+        background-position: center;
+    }
+    .food-box2{
+        width: 33%;
+        height: 300px;
+        background-image: url(../image/eat2.jpg) !important;
+        background-size: cover;
+        background-position: center;
+    }
+    .food-box3{
+        width: 33%;
+        height: 300px;
+        background-image: url(../image/eat3.webp) !important;
+        background-size: cover;
+        background-position: center;
+    }
+    .food-box4{
+        width: 33%;
+        height: 300px;
+        background-image: url(../image/eat4.jfif);
+        background-size: cover;
+        background-position: center;
+    }
+    .food-box5{
+        width: 33%;
+        height: 300px;
+        background-image: url(../image/eat5.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .food-box6{
+        width: 33%;
+        height: 300px;
+        background-image: url(../image/eat7.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .last-container{
+        background-color: black;
+        width: 100%;
+        height: 200px;
+        margin-top: 10px;
+        
+      
+    }
+       .small-last-container{
+        width: 30%;
+        height: 200px;
+       
+        
+    
+        
+       }
+    .last-paragraph{
+        color: white;
+        text-align: center;
+    }
+    
+    @media only screen and (max-width:767px) {
+        #toggle{
+            display: inline-block !important;
+            
+        }
+        .nav-content{
+            display: none;
+        }
+        .paragraph1{
+            text-align: center;
+            color: black;
+        }
+       
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content{
+            position: absolute;
+            background-color: white;
+            min-width: fit-content;
+            padding: 10px;
+            z-index: 100px;
+            display: none;
+            width: 180px;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+        .dropdown-content a{
+            display: block;
+            margin: 5px auto;
+            padding: 10px 20px;
+            transition: 0.5 ease-out;
+            color: rgb(18, 18, 56);
+        }
+        .dropdown-content a:hover{
+            color: gold;
+            font-size: 20px;
+        }
+        nav{
+            padding-right: 150px;
+            padding-left: 30px;
+        }
+        .collection{
+            display: none;
+        }
+        .heading1{
+            font-size: 15px;
+
+        }
+        .picture-box{
+            width: 100%;
+            height: fit-content;
+            margin: auto;
+            margin-top: 10px;
+            display: block;
+        }
+        .food-box1{
+            width: 100%;
+            height: 300px;
+            background-image: url(../image/eat1.jfif);
+            background-size: cover;
+            background-position: center;
+        }
+        .food-box2{
+            width: 100%;
+            height: 300px;
+            background-image: url(../image/eat2.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .food-box3{
+            width: 100%;
+            height: 300px;
+            background-image: url(../image/eat3.webp);
+            background-size: cover;
+            background-position: center;
+        }
+        .food-box4{
+            width: 100%;
+            height: 300px;
+            background-image: url(../image/eat4.jfif);
+            background-size: cover;
+            background-position: center;
+        }
+        .food-box5{
+            width: 100%;
+            height: 300px;
+            background-image: url(../image/eat5.webp);
+            background-size: cover;
+            background-position: center;
+        }
+        .food-box6{
+            width: 100%;
+            height: 300px;
+            background-image: url(../image/eat7.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .last-container{
+            display: block;
+            height: fit-content;
+        }
+        .small-last-container{
+            margin-top: 20px;
+            width: 50%;
+        }
+    }
+    @media only screen and (max-width:976px) {
+        #toggle{
+            display: inline-block !important;
+            
+        }
+        .nav-content{
+            display: none;
+        }
+        .paragraph1{
+            text-align: center;
+            color: black;
+        }
+    
+    
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content{
+            position: absolute;
+            background-color: white;
+            min-width: fit-content;
+            padding: 10px;
+            z-index: 100px;
+            display: none;
+            width: 180px;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+        .dropdown-content a{
+            display: block;
+            margin: 5px auto;
+            padding: 10px 20px;
+            transition: 0.5 ease-out;
+            color: rgb(18, 18, 56);
+        }
+        .dropdown-content a:hover{
+            color: gold;
+            font-size: 20px;
+        }
+        nav{
+            padding-right: 150px;
+            padding-left: 30px;
+        }
+        .collection{
+            display: none;
+        }
+        .picture-box{
+            width: 100%;
+            height: fit-content;
+            margin: auto;
+           
+        }
+        .food-box1{
+            width: 100%;
+            height: 300px;
+            background-image: url(../image/eat1.jfif);
+            background-size: cover;
+            background-position: center;
+        }
+        .food-box2{
+            width: 100%;
+            height: 300px;
+            background-image: url(../image/eat2.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .food-box3{
+            width: 100%;
+            height: 300px;
+            background-image: url(../image/eat3.webp);
+            background-size: cover;
+            background-position: center;
+        }
+        .food-box4{
+            width: 100%;
+            height: 300px;
+            background-image: url(../image/eat4.jfif);
+            background-size: cover;
+            background-position: center;
+        }
+        .food-box5{
+            width: 100%;
+            height: 300px;
+            background-image: url(../image/eat5.webp);
+            background-size: cover;
+            background-position: center;
+        }
+        .food-box6{
+            width: 100%;
+            height: 300px;
+            background-image: url(../image/eat7.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .last-container{
+            display: block;
+            height: fit-content;
+        }
+        .small-last-container{
+            margin-top: 20px;
+            width: 30%;
+        }
+    }    

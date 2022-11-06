@@ -1,0 +1,784 @@
+/* General styling */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    list-style: none;
+}
+:root{
+    --para:'Asap Condensed', sans-serif
+    
+}
+/* nav start */
+nav{
+    background-color: black;
+    height: 100px;
+    width: auto;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 0px 100px;
+    align-items: center;
+}
+
+.order-now{
+    color: white;
+}
+.more{
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    color: white;
+    margin-top: 40px;
+    padding: 10px 25px;
+}
+.color{
+    color: white;
+}
+/* toggle start */
+#toggle{
+    display: none;
+}
+/* heading1 */
+.heading1{
+    margin-left: 40px;
+    color: gold;
+    
+}
+.paragraph6{
+    margin-top: 50px;
+}
+.video-tag{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    margin-top: 20px;
+    padding: auto;
+}
+.table-tag{
+    width: 55%;
+    height: 300px;
+  
+   align-items: center;
+     padding-left: 137px;
+}
+.video{
+    height: 300px;
+   
+    width: 40%;
+
+}
+
+/* df */
+.df{
+justify-content: space-between;
+display: flex;
+align-items: center;
+}
+/* nav li a */
+nav li a{
+    margin: 0px 50px;
+    color: white;
+    font-family: var(--para);
+}
+nav li a:hover{
+    color: gold;
+}
+/* hero-page */
+.hero-page{
+    background-image: url(../image/bg01.jpg);
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+    animation-name: amala;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    background-repeat: no-repeat;
+    background-position: center;    
+    display: flex;
+    align-items: center;
+}
+.hero-content{
+    width: 50%;
+    height: fit-content;
+    padding: 20px 10px;
+}
+.hero-content h1{
+    color: white;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+.hero-content p{
+    color: white;
+    font-size: medium;
+}
+/* @keyframes amala {
+    5%{
+        background-image: url(../image/jollof\ rice.jpg);
+    }
+    20%{
+       background-image: url(../image/amala2.jpg);
+    }
+    35%{
+        background-image: url(../image/rice.jpg);
+    }
+    50%{
+        background-image: url(../image/ofada.jfif);
+    }
+    75%{
+        background-image: url(../image/fufu.jpg);
+    } */
+    
+    
+/* } */
+/* comment */
+
+.comment{
+    margin-top: 90px !important;
+    margin-bottom: 90px !important;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.big-container{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    margin-top: 60px;
+}
+.heading2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+.small-container1{
+    width: 60%;
+    height: fit-content;
+    
+}
+.small-container2{
+    width: 36%;
+ background-image: url(../image/cooking.webp);
+ background-size: cover;
+ height: 400px;
+}
+.words2{
+    font-family: var();
+}
+.paragraph2{
+    font-size: 25px;
+    color: white;
+}
+.picture-container{
+    background-image: url(../image/cooking2.webp);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    padding-top: 130px;
+}
+.paragraph3{
+    color: white;
+    margin: auto;
+    font-size: 37px;
+}
+.picture-box{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    margin-top: 10px;
+}
+.food-box1{
+    width: 33%;
+    height: 300px;
+    background-image: url(../image/eat1.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.food-box2{
+    width: 33%;
+    height: 300px;
+    background-image: url(../image/eat2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.food-box3{
+    width: 33%;
+    height: 300px;
+    background-image: url(../image/eat3.webp);
+    background-size: cover;
+    background-position: center;
+}
+.food-box4{
+    width: 33%;
+    height: 300px;
+    background-image: url(../image/eat4.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.food-box5{
+    width: 33%;
+    height: 300px;
+    background-image: url(../image/eat5.webp);
+    background-size: cover;
+    background-position: center;
+}
+.food-box6{
+    width: 33%;
+    height: 300px;
+    background-image: url(../image/eat7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* .food-box7{
+    width: 33%;
+    height: 300px;
+    background-image: url(../image/yam\ box.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.food-box8{
+    width: 33%;
+    height: 300px;
+    background-image: url(../image/pepper\ soup\ box.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.food-box9{
+    width: 33%;
+    height: 300px;
+    background-image: url(../image/ofada\ box.jpg);
+    background-size: cover;
+    background-position: center;
+} */
+.resturant-container{
+    width: 100%;
+    height: 400px;
+    background-image: url(../image/resort2.webp);
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    padding-top: 180px;
+}
+.fa{
+    color: white;
+    font-family: var(--para);
+    margin: 5px;
+}
+.order-para{
+    color: white; 
+}
+.fa-cutlery{
+    color: gold;
+}
+.chef-box{
+    width: 90%;
+    margin: auto;
+    height: fit-content;
+    margin-bottom: 140px;
+   
+}
+.fa-user{
+    color: gold;
+    
+
+}
+.master{
+    margin: auto;
+}
+.chef{
+    width: 24%;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.chef:hover{
+    background: gold;
+    color: white;  
+}
+.btn{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px 10px;
+    padding: 10px;
+    background-color: gold;
+}
+.heading3{
+    color: white;
+    text-align: center;
+    
+}
+
+.paragraph4{
+    font-size: 30px;
+}
+.heading4{
+    text-align: center;
+}
+.paragraph5{
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.last-container{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    
+  
+}
+   .small-last-container{
+    width: 30%;
+    height: 200px;
+   
+    
+
+    
+   }
+.last-paragraph{
+    color: white;
+    text-align: center;
+}
+/* .footer{
+    width: auto;
+    height: 100px;
+    background-color: black;
+} */
+.client-words{
+    margin: auto;
+    width: 50%;
+    height: fit-content;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 5px 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.client-words:hover{
+    background-color: gold;
+    color: white;
+}
+.footer-container{
+    background-color: red;
+    width: 20px;
+    height: 100px;
+}
+.video-container{
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+}
+video{
+    width: 100%;
+    height: fit-content;
+}
+.vid-container{
+    width: 47%;
+    height: fit-content;
+   
+}
+.table-container{
+    width: 47%;
+    height: fit-content;
+ 
+}
+input[type=email]{
+    width: 100% !important;
+   height: 50px;
+}
+input[type=number]{
+    width: 100% !important;
+    height: 50px;
+ }
+ input[type=text]{
+    width: 100% !important;
+    height: 50px;
+ }
+ input[type=datetime-local]{
+    width: 100% !important;
+    height: 50px;
+ }
+ input[type=submit]{
+    width: 50% !important;
+    height: 50px;
+    background-color: gold;
+ }
+ .starting-page{
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 15px;
+}
+.starting-boxes{
+    width: 28vmin;
+    height: 28vmin;
+    background-color: black;
+    padding: 1em 0;
+    font-size: 15px;
+    border-left: 1px solid gold;
+    border-right: 1px solid gold;
+}
+span.text{
+color: white;
+font-size: 2em;
+
+}
+span.num{
+    color: white;
+    font-weight: 600;
+    font-size: 3em;
+}
+@media only screen and (max-width:767px) {
+    #toggle{
+        display: inline-block !important;
+        
+    }
+    .nav-content{
+        display: none;
+    }
+    .paragraph1{
+        text-align: center;
+        color: black;
+    }
+   
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content{
+        position: absolute;
+        background-color: white;
+        min-width: fit-content;
+        padding: 10px;
+        z-index: 100px;
+        display: none;
+        width: 180px;
+    }
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+    .dropdown-content a{
+        display: block;
+        margin: 5px auto;
+        padding: 10px 20px;
+        transition: 0.5 ease-out;
+        color: rgb(18, 18, 56);
+    }
+    .dropdown-content a:hover{
+        color: gold;
+        font-size: 20px;
+    }
+    nav{
+        padding-right: 150px;
+        padding-left: 30px;
+    }
+    .collection{
+        display: none;
+    }
+    .heading1{
+        font-size: 15px;
+    }
+    .hero-content h1{
+        color: white;
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+    .hero-content{
+        width: 70%;
+        height: fit-content;
+        padding: 20px 10px;
+    }
+    .comment{
+        margin-top: 90px !important;
+        margin-bottom: 90px !important;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    .chef-box{
+        width: 90% !important;
+        margin: auto;
+        height: fit-content;
+        margin-bottom: 140px;
+        display: block !important;
+       
+    }
+    .chef{
+        width: 100% !important;
+        height: 250px !important;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        margin-top: 15px !important;
+        margin: auto;
+    }
+    .chef:hover{
+        background: gold;
+        color: white;  
+    }
+    .picture-box{
+        width: 100%;
+        height: fit-content;
+        margin: auto;
+        margin-top: 10px;
+        display: block;
+    }
+    .food-box1{
+        width: 100%;
+        height: 300px;
+        background-image: url(../image/eat1.jfif);
+        background-size: cover;
+        background-position: center;
+    }
+    .food-box2{
+        width: 100%;
+        height: 300px;
+        background-image: url(../image/eat2.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .food-box3{
+        width: 100%;
+        height: 300px;
+        background-image: url(../image/eat3.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .food-box4{
+        width: 100%;
+        height: 300px;
+        background-image: url(../image/eat4.jfif);
+        background-size: cover;
+        background-position: center;
+    }
+    .food-box5{
+        width: 100%;
+        height: 300px;
+        background-image: url(../image/eat5.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .food-box6{
+        width: 100%;
+        height: 300px;
+        background-image: url(../image/eat7.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .last-container{
+        display: block;
+        height: fit-content;
+    }
+    .small-last-container{
+        margin-top: 20px;
+        width: 50%;
+    }
+    .paragraph4{
+        font-size: 16px !important;
+    }
+    .client-words{
+        width: 90%;
+    }
+    .video-container{
+        width: 100%;
+        height: fit-content !important;
+        margin-top: 20px;
+        display: block !important;
+    }
+    video{
+        width: 100%;
+        height: fit-content;
+    }
+    .vid-container{
+        width: 100%;
+        height: fit-content;
+    }
+    .table-container{
+        width: 100%;
+        height: fit-content;
+      
+    }
+    input[type=email]{
+        width: 100% !important;
+        height: 100% !important;
+     }
+     input[type=text]{
+         width: 100% !important;
+         height: 100% !important;
+      }
+      input[type=number]{
+        width: 100% !important;
+        height: 100% !important;
+     }
+     input[type=datetime-local]{
+         width: 100% !important;
+         height: 100% !important;
+      }
+      input[type=submit]{
+        width: 50% !important;
+        height: 100% !important;
+        background-color: gold;
+     }
+     .starting-boxes{
+        width: 45%;
+        height: 200px;
+        margin-top: 10px;
+     }
+     .starting-page{
+        flex-wrap: wrap;
+        width: 90%;
+     }
+}
+@media only screen and (max-width:976px) {
+    #toggle{
+        display: inline-block !important;
+        
+    }
+    .nav-content{
+        display: none;
+    }
+    .paragraph1{
+        text-align: center;
+        color: black;
+    }
+
+
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content{
+        position: absolute;
+        background-color: white;
+        min-width: fit-content;
+        padding: 10px;
+        z-index: 100px;
+        display: none;
+        width: 180px;
+    }
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+    .dropdown-content a{
+        display: block;
+        margin: 5px auto;
+        padding: 10px 20px;
+        transition: 0.5 ease-out;
+        color: rgb(18, 18, 56);
+    }
+    .dropdown-content a:hover{
+        color: gold;
+        font-size: 20px;
+    }
+    nav{
+        padding-right: 150px;
+        padding-left: 30px;
+    }
+    .collection{
+        display: none;
+    }
+    .hero-content h1{
+        color: white;
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+    .hero-content{
+        width: 70%;
+        height: fit-content;
+        padding: 20px 10px;
+    }
+    .comment{
+        margin-top: 90px !important;
+        margin-bottom: 90px !important;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    .chef-box{
+        width: 90%;
+        margin: auto;
+        height: fit-content;
+      flex-wrap: wrap;
+    }
+    .chef{
+        width: 48%;
+        height: 200px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        margin-top: 15px !important;
+        margin: auto;
+        
+    }
+    .chef:hover{
+        background: gold;
+        color: white;  
+    }
+    .picture-box{
+        width: 100%;
+        height: fit-content;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .food-box1{
+        width: 100%;
+        height: 300px;
+        background-image: url(../image/eat1.jfif);
+        background-size: cover;
+        background-position: center;
+    }
+    .food-box2{
+        width: 100%;
+        height: 300px;
+        background-image: url(../image/eat2.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .food-box3{
+        width: 100%;
+        height: 300px;
+        background-image: url(../image/eat3.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .food-box4{
+        width: 100%;
+        height: 300px;
+        background-image: url(../image/eat4.jfif);
+        background-size: cover;
+        background-position: center;
+    }
+    .food-box5{
+        width: 100%;
+        height: 300px;
+        background-image: url(../image/eat5.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .food-box6{
+        width: 100%;
+        height: 300px;
+        background-image: url(../image/eat7.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .last-container{
+        display: block;
+        height: fit-content;
+    }
+    .small-last-container{
+        margin-top: 20px;
+        width: 30%;
+    }
+    .starting-boxes{
+        width: 45%;
+        height: 200px;
+        margin-top: 10px;
+     }
+     .starting-page{
+        flex-wrap: wrap;
+        width: 90%;
+     }
+}
